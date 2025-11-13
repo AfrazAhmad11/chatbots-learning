@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["track my order", "where is my order", "order status"],
+      "responses": ["Please provide your order ID so I can check it for you."]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "how to return product", "refund process"],
+      "responses": ["Our refund policy allows returns within 7 days. Would you like to start a return?"]
+    },
+    {
+      "tag": "it_helpdesk",
+      "patterns": ["my laptop is not working", "need IT support", "system error"],
+      "responses": ["Please open a support ticket or describe your issue in detail."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye"],
+      "responses": ["Goodbye! Have a great day!", "See you later!","Kindly do not forget to rate your experience today."]
+    },
+    {
+        "tag": "product_inquiry",
+        "patterns":["how to return product","check","laptop review","my laptop is not working"],
+        "responses":["Our refund policy allows returns within 7 days. Would you like to start a return?","Please provide the product details for review.","Please open a support ticket or describe your issue in detail."]
+    },
+    {
+        "tag":"Discount",
+        "patterns":["any discount avaliabele","any offer going on","any sale","sale going on"],
+        "responses":["Yes, we have a 10% discount on all electronics this week!","We are currently running a buy one get one free offer on select items."]
+    }
+  ]
+}
